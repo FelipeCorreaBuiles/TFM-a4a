@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(psych)\ndescribe(mydata)\n\n",
+    "created" : 1459353093441.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "494373961",
+    "id" : "45B02259",
+    "lastKnownWriteTime" : 7011605692497750387,
+    "last_content_update" : 0,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

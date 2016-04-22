@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(psych)\nlibrary(mice)\ninstall.packages(\"mice\")\ndescribe(mydata)\ninstall.packages(\"rattle\")\ninstall.packages(\"rpart\")\ninstall.packages(\"rpart.plot\")\nlibrary(rattle)\ninstall.packages(\"e1071\") \nlibrary(rpart.plot)\nlibrary(e1071)\ninstall.packages(\"kernlab\")\ninstall.packages(\"pROC\") \n\n\ndata<- read.delim(\"C:/Users/KeyData/Desktop/OperacionesInusuales/OperacionesInusuales/iris_NAs.txt\")\ndata[, lapply(data, statistic_clean(x,\"\"))]\nlapply(data, statistic_clean)\ndata$Species\n\nmod1 <- C5.0(Species ~ ., data = iris)\nplot(mod1)\nplot(mod1, subtree = 3)\n\n\n\nstatistic_clean <- function(x) {\n  \n  if(method == 'most_frecuent'){\n    \n    \n  }\n  \n  if(method == 'min'){\n    \n    \n  }\n  \n  if(method == 'max'){\n    \n    \n  }\n  \n  if(method == 'replace_with'){\n    \n    \n  }\n  \n  if (is.numeric(x)) {\n    x[is.na(x)] <- mean(x, na.rm = TRUE)\n    x\n  } else {\n    x[is.na(x)] <- names(which.max(table(x)))\n    x\n  }\n}\n",
+    "created" : 1459353093441.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "3892367736",
+    "id" : "45B02259",
+    "lastKnownWriteTime" : 7011605692497750387,
+    "last_content_update" : 1461120620610,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

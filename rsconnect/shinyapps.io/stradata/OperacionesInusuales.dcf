@@ -1,0 +1,9 @@
+name: OperacionesInusuales
+account: stradata
+server: shinyapps.io
+appId: 70726
+bundleId: 417859
+url: https://stradata.shinyapps.io/OperacionesInusuales/
+when: 1460496061.47295
+asMultiple: FALSE
+asStatic: FALSE
